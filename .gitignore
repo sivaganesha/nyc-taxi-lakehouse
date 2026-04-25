@@ -1,0 +1,19 @@
+# AWS credentials - NEVER commit these
+*.csv
+run_bronze_local.sh
+run_silver_local.sh
+run_gold_local.sh
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Logs
+logs/
+*.log
+
+# Spark
+spark-warehouse/
+derby.log
